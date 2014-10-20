@@ -32,6 +32,9 @@ TARGET_OTA_ASSERT_DEVICE := c0,p4noterf,n8000,GT-N8000
 # Selinux
 BOARD_SEPOLICY_DIRS += \
     device/samsung/n8000/selinux
+    
+# Resolution
+DEVICE_RESOLUTION := 1280x800
 
 BOARD_SEPOLICY_UNION += \
     device.te \
